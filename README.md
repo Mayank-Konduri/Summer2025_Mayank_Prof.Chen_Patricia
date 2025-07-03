@@ -14,3 +14,15 @@
 
 ### 2. Visualizing the Cones  
 [ Experiment No. 2 Link](https://colab.research.google.com/drive/1owO-VAnCmoNxCXqZ91DN30ZMfRnAbYNi?usp=sharing)
+
+## Papers Referenced
+
+- **CE23:** *Geometric Structure of Deep Learning Networks and Construction of Global L2 Minimizers*
+- **CE24:** *Interpretable Global Minima of Deep ReLU Neural Networks on Sequentially Separable Data*
+- **Ewa25:** *Explicit Neural Network Classifiers for Non-Separable Data*
+
+## Files Referenced
+
+- **`ifml-talk`** — *Slideshow of Talk on Interpretability of ReLU Neural Networks via Truncation Maps*
+- **`Experiments Initial Plan`** — *Suggested plan to work through both experiments: Testing for Sequential Linear Separability and Visualizing the Cones*
+- **`Intuitive Explanation of the Hyperplane Separation`** — *Notes by Professor Chen on the intuitive explanation of the hyperplane separation in the toy model for MNIST*
