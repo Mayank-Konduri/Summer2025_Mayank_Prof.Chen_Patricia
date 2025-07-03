@@ -31,4 +31,6 @@
 ---
 
 **Note:**  
-** After you get the cumulative weights and biases, you can assume that the neural network is applying every truncation map tau_{W^(l), bˆ(l)} on the data, one after the other. So the first layer does tau_{W^(1), bˆ(1)}, the second layer does tau_{W^(2), bˆ(2)} and so on, up until the last layer when everything gets mapped to the output (that's the content of equation (3.7) here). The action of each of these truncation maps is given by the corresponding cone. So for the first cone, you would compute p = -W^(1)_pseudoinverse * b^(1) and v_i = W^(1)_pseudoinverse and similarly for the other cones.
+** After you get the cumulative weights and biases, you can assume that the neural network is applying every truncation map tau_{W^(l), bˆ(l)} on the data, one after the other. So the first layer does tau_{W^(1), bˆ(1)}, the second layer does tau_{W^(2), bˆ(2)} and so on, up until the last layer when everything gets mapped to the output (that's the content of equation (3.7) here). 
+
+The action of each of these truncation maps is given by the corresponding cone. So for the first cone, you would compute p = -W^(1)_pseudoinverse * b^(1) and v_i = W^(1)_pseudoinverse and similarly for the other cones.
