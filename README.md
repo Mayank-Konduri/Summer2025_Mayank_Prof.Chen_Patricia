@@ -7,7 +7,7 @@
 
 ---
 
-## Experiments (use the links below to view projects)
+## Experiments (use the links below to view/run projects)
 
 ### 1. Testing for Sequential Linear Separability  
 [ Mayank_Summer_2025_Experiment_1.ipynb](https://colab.research.google.com/drive/1glI17EJJEdi8scGCjhpa42ZmpCsZ4CVU?usp=sharing)
