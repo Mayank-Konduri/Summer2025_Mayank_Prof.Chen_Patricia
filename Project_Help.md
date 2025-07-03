@@ -38,12 +38,12 @@ The action of each of these truncation maps is given by the corresponding cone. 
 
 ## July 3rd (Feedback after Experiment #1 and Experiment #2 + Suggestions for Next Steps)
 
-Here is the Google Colab notebook with the last modifications that I made, so you can see a test where everything ended up full-rank.
+[Here](https://colab.research.google.com/drive/19IYlsoutYqcNrU2dE7FOujP-jCeNkfl-?usp=sharing) is the Google Colab notebook with the last modifications that I made, so you can see a test where everything ended up full-rank.
 
 Here are some quick comments on your code, some of which we discussed today:  
 - Derivation of cumulative parameters is correct in your implementation, but wrong in your handwritten notes :)  
 - I noticed you used CrossEntropyLoss instead of MSELoss. I wonder if/how that might change the geometry of the trained network.  
-- No need to test for injectivity of matrices: if dimensions of hidden layers go down, they can never be injective; if the dimensions stay the same, then W is injective if and only if it is surjective.
+- No need to test for injectivity of matrices: if dimensions of hidden layers go down, they can never be injective; if the dimensions stay the same, then W is injective [if and only if](https://en.wikipedia.org/wiki/Rank%E2%80%93nullity_theorem) it is surjective.
 
 ---
 
