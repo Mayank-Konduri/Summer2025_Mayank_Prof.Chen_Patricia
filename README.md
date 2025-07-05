@@ -22,8 +22,8 @@
 - **`Ewa25`:** *Explicit Neural Network Classifiers for Non-Separable Data*
 - **`ifml-talk`:** *Slideshow of Talk on Interpretability of ReLU Neural Networks via Truncation Maps*
 
-## Files Uploaded
+## Important Files
 
 - **`Experiments Initial Plan`** — *Suggested plan to work through both experiments: Testing for Sequential Linear Separability and Visualizing the Cones*
 - **`Intuitive Explanation of the Hyperplane Separation`** — *Notes by Professor Chen on the intuitive explanation of the hyperplane separation in the toy model for MNIST*
-- **`Update Meeting #1 with Professor Chen & Patrícia`** — *Monthly update presentation (by Mayank) on my implementation of the initial plan for both experiments.*
+- **Meeting #2 - July 2nd/`Meeting Update Slideshow`** - *Monthly update presentation (by Mayank) on my implementation of the initial plan for both experiments.*
