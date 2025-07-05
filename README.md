@@ -15,12 +15,12 @@
 ### 2. Visualizing the Cones  
 [ Mayank_Summer_2025_Experiment_2.ipynb](https://colab.research.google.com/drive/1owO-VAnCmoNxCXqZ91DN30ZMfRnAbYNi?usp=sharing)
 
-## Papers Referenced
+## Papers - Scholarly References
 
 - **`CE23`:** *Geometric Structure of Deep Learning Networks and Construction of Global L2 Minimizers*
 - **`CE24`:** *Interpretable Global Minima of Deep ReLU Neural Networks on Sequentially Separable Data*
 - **`Ewa25`:** *Explicit Neural Network Classifiers for Non-Separable Data*
-- - **`ifml-talk`:** *Slideshow of Talk on Interpretability of ReLU Neural Networks via Truncation Maps*
+- **`ifml-talk`:** *Slideshow of Talk on Interpretability of ReLU Neural Networks via Truncation Maps*
 
 ## Files Uploaded
 
