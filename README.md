@@ -27,3 +27,4 @@
 - **`Experiments Initial Plan`** — *Suggested plan to work through both experiments: Testing for Sequential Linear Separability and Visualizing the Cones*
 - **`Intuitive Explanation of the Hyperplane Separation`** — *Notes by Professor Chen on the intuitive explanation of the hyperplane separation in the toy model for MNIST*
 - **Meeting #2 - July 2nd/`Meeting Update Slideshow`** - *Monthly update presentation (by Mayank) on my implementation of the initial plan for both experiments.*
+- **`Project_Help.md`:** — *Guidance provided by Patrícia and Professor Chen on any questions I have regarding the task given*
