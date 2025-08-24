@@ -73,3 +73,24 @@ Other data geometries I have in mind, vaguely defined:
 ---
 
 Also, note that both papers you've been referring to have new, improved versions on the arXiv now: CE, E. The results are the same, so nothing changes with your implementation, but I suggest downloading new PDFs and using those as references.
+
+
+
+## August 1st (Suggestions about Fine-Tuning and Directionalizing Results)
+
+1. **For MNIST and synthetic data:**
+   - Fix implementation of truncation map. See eq. (7) in [CE24], or the changes I made to the copy I sent you.  
+   - Implement training until some error threshold is met or flow gets stuck.  
+   - If this is working well, produce plots of truncated data and output layer for different thresholds.  
+   - Also, note: 0,1,6,4 are SLS (in this order). So perhaps using (0, 1, 6) instead of (0, 1, 8) might be better, since we know a zero cost global minimum exists.  
+   - The idea here is to see if the data gets more clustered in the output layer (neural collapse) and/or how the cone geometry might change if the error gets smaller.  
+
+2. **A new experiment for the synthetic data:**
+   - For each data configuration you are generating, use the constructions from [CE24] and [Ewa25] to find zero cost global minima.  
+   - It looks like you're using the classifying hyperplanes/cones to construct some of the data ((b) and (c)), so hopefully you should be able to use those same hyperplanes/cones to construct the parameters of the network.  
+   - Perturb this parameter vector slightly (add some vector in parameter space with small norm), use this to initialize, and then see what SGD converges to.  
+   - Do the same for smaller/larger norms.  
+   - The idea here is to get a feel for what the loss landscape looks like around these constructive global minima.  
+
+3. **For pixel hyperplanes:**
+   - You can try to visualize the separating hyperplanes with colors, with different colors per hyperplane, and each point being colored (or not) depending on which side of that hyperplane it is on.  
