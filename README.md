@@ -26,10 +26,10 @@ The University of Texas at Austin
 ### 2. Visualizing the Cones - Part 1 (until PCA of Traing Data + Overlapping Cones)
 [Mayank - Summer '25 - Experiment #2 - Part 1 - Final.ipynb](https://colab.research.google.com/drive/1owO-VAnCmoNxCXqZ91DN30ZMfRnAbYNi?usp=sharing)
 
-### 3. Visualizing the Cones - Part 2 (until PCA + Synthetic Data Generation + Truncation Map Visualization + Hyperplane Experiment)
+### 3a. Visualizing the Cones - Part 2 (until PCA + Synthetic Data Generation + Truncation Map Visualization + Hyperplane Experiment)
 [Mayank - Summer '25 - Experiment #2 - Part 2 - Final.ipynb](https://colab.research.google.com/drive/1DySk1rDp_Lh1OFsQH6mcoxj0euNSfDzO?usp=sharing)
 
-### 3a. Visualizing the Cones - Part 2 (adding No Limit to Epochs + Plateau Condition)
+### 3b. Visualizing the Cones - Part 2 (adding No Limit to Epochs + Plateau Condition)
 [Mayank - Fall '25 - Continuation of Experiment #2 (No Limit to Epochs + Plateau Condition) - Final.ipynb](https://colab.research.google.com/drive/1xltQWLZ_nE5PpxmCV_NUVJBsqASBH7DI?usp=sharing)
 
 ### 4. Zero Loss Global Minima Experiments w/ Dataset C
