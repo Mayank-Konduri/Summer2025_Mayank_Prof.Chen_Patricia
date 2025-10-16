@@ -93,4 +93,67 @@ Also, note that both papers you've been referring to have new, improved versions
    - The idea here is to get a feel for what the loss landscape looks like around these constructive global minima.  
 
 3. **For pixel hyperplanes:**
-   - You can try to visualize the separating hyperplanes with colors, with different colors per hyperplane, and each point being colored (or not) depending on which side of that hyperplane it is on.  
+   - You can try to visualize the separating hyperplanes with colors, with different colors per hyperplane, and each point being colored (or not) depending on which side of that hyperplane it is on.
+
+## September 13th (Clarifications on Perturbation Strategy and Zero-Loss Constructions)
+
+**Email Summary (Mayank → Patrícia, Sept 11)**  
+
+Dear Patrícia,  
+
+Good afternoon! I have a couple of questions I would like to confirm for the **synthetic data experiment** we are currently implementing. Could you please verify that I understand the required steps correctly, or point out any mistakes in my reasoning?
+
+**What I need to do:**  
+1. For each synthetic dataset configuration, construct weights and biases following the approach in **[CE24]/[Ewa25]** so that the network classifies all points correctly with zero loss.  
+2. Verify that this manually constructed network indeed achieves zero training loss.  
+3. Generate random noise tensors (same shape as each \(W_l, b_l\)) to act as perturbations.  
+4. Scale each noise tensor by a small constant and add it to the constructed parameters to form a *perturbed parameter vector*.  
+5. Use this perturbed initialization for **SGD** and train normally.  
+6. Repeat for multiple constants (small / medium / large) to observe when SGD converges back to zero loss and when it does not.  
+7. Run many trials for each constant and plot **histograms of final losses** to analyze the local shape of the loss landscape near these zero-loss minima.
+
+**Questions:**  
+- How exactly should the “standard deviation weight matrix” be created for the perturbations?  
+- Should the perturbation magnitude (λ) be a fixed scalar (e.g., 0.1) or defined relative to the parameter norms?  
+- Could you briefly describe how to create the weights and biases directly from the hyperplanes/cones mentioned earlier?
+
+---
+
+**Reply (Patrícia → Mayank + Thomas, Sept 11)**  
+
+Your summary looks excellent!  
+
+**Perturbation Strategy:**  
+- Generate a random tensor of the same shape as each weight or bias.  
+- Normalize it and scale by **λ / ‖tensor‖**, varying λ (start around 0.1, then try larger/smaller).  
+- For now, you don’t need to account for the norm of the original parameter tensor—though that could be tested later.
+
+**Zero-Loss Construction Guidelines:**  
+- Each synthetic geometry defines a **polyhedral cone** per class that collapses that class to its base point \(p\), while either  
+  (i) leaving the other classes unaffected (types (a) and (b)), or  
+  (ii) projecting them beneficially (types (c) and (d)).  
+- Each cone defines a **cumulative weight matrix + bias** for one layer; the **final layer** performs linear regression.  
+
+**For data type (c): Non-SLS, Non-Concentric (Fig. 1a [Ewa25])**  
+- You already have \(p\) and two directions \(v_1, v_2\).  
+- To make the first layer’s matrix surjective, introduce a third independent direction:  
+  \[
+  v_3 = v_1 + v_2 + (0,0,1)
+  \]  
+  Adjust the first two directions slightly:  
+  \[
+  v_1 = v_1 + (0,0,-1), \quad v_2 = v_2 + (0,0,-1)
+  \]  
+  Shift the base point toward the blue class:  
+  \[
+  p_1 = p + (0, -\tfrac{1}{2}, 0)
+  \]  
+- Use **Lemma 2.1 [Ewa25]** to build the first \(W^{(1)}, b^{(1)}\).  
+- For the second cone: take \(p_2 = 0\) and \(v_i^{(2)} = -v_i^{(1)}\); again use these to construct \(W^{(2)}, b^{(2)}\).  
+- The final cumulative layer should map \(p_1\) and \(p_2\) to their one-hot labels. The last bias can likely be set to 0.  
+- Finally, derive the **non-cumulative parameters** from these and pass them to the model.
+
+**Next Steps:**  
+- Test this construction on the synthetic (type c) dataset.  
+- Once it reproduces the expected zero-loss behavior, extend to other geometries (types (a), (b), (d)) using analogous cone definitions.
+
