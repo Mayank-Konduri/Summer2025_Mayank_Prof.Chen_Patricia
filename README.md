@@ -10,23 +10,22 @@
 ## Experiments (use the links below to view/run projects)
 
 ### 1. Testing for Sequential Linear Separability  
-[ Mayank_Summer_2025_Experiment_1.ipynb](https://colab.research.google.com/drive/1glI17EJJEdi8scGCjhpa42ZmpCsZ4CVU?usp=sharing)
+[Mayank - Summer '25 - Experiment #1 - Final.ipynb](https://colab.research.google.com/drive/1glI17EJJEdi8scGCjhpa42ZmpCsZ4CVU?usp=sharing)
 
 ### 2. Visualizing the Cones - Part 1 (until PCA of Traing Data + Overlapping Cones)
-[ Mayank - Summer 2025 Experiment #2 - Part 1.ipynb](https://colab.research.google.com/drive/1owO-VAnCmoNxCXqZ91DN30ZMfRnAbYNi?usp=sharing)
+[Mayank - Summer '25 - Experiment #2 - Part 1 - Final.ipynb](https://colab.research.google.com/drive/1owO-VAnCmoNxCXqZ91DN30ZMfRnAbYNi?usp=sharing)
 
 ### 3. Visualizing the Cones - Part 2 (until PCA + Synthetic Data Generation + Truncation Map Visualization + Hyperplane Experiment)
-[ Mayank - Summer 2025 Experiment #2 - Part 2.ipynb](https://colab.research.google.com/drive/1DySk1rDp_Lh1OFsQH6mcoxj0euNSfDzO?usp=sharing)
+[Mayank - Summer '25 - Experiment #2 - Part 2 - Final.ipynb](https://colab.research.google.com/drive/1DySk1rDp_Lh1OFsQH6mcoxj0euNSfDzO?usp=sharing)
 
 ### 3a. Visualizing the Cones - Part 2 (adding No Limit to Epochs + Plateau Condition)
-[ Mayank - Summer 2025 Experiment #2 - Part 2.ipynb](https://colab.research.google.com/drive/1xltQWLZ_nE5PpxmCV_NUVJBsqASBH7DI?usp=sharing)
+[Mayank - Fall '25 - Continuation of Experiment #2 (No Limit to Epochs + Plateau Condition) - Final.ipynb](https://colab.research.google.com/drive/1xltQWLZ_nE5PpxmCV_NUVJBsqASBH7DI?usp=sharing)
 
 ### 4. Zero Loss Global Minima Experiments w/ Dataset C
-[ Mayank - Summer 2025 Experiment #2 - Part 2.ipynb](https://colab.research.google.com/drive/1siWa1DOK8KJFaNUCnA84rYjmv_GNraWo?usp=sharing)
+[Mayank - Fall '25 - Zero Loss Experiment w/ Dataset C - Final](https://colab.research.google.com/drive/1siWa1DOK8KJFaNUCnA84rYjmv_GNraWo?usp=sharing)
 
 ### 5. Zero Loss Global Minima Experiments w/ Multiple Datasets ---> (MOST RECENT CODE)
-[ Mayank - Summer 2025 Experiment #2 - Part 2.ipynb](https://colab.research.google.com/drive/1JpWZ-HBiT2TQyMp1vx5n3Q0GD1NOwRXe?usp=sharing)
-
+[Mayank - Fall '25 - Zero Loss Experiment w/ Multiple Datasets - Final](https://colab.research.google.com/drive/1JpWZ-HBiT2TQyMp1vx5n3Q0GD1NOwRXe?usp=sharing)
 
 ## Papers - Scholarly References
 
