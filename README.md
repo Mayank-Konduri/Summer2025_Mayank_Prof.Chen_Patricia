@@ -1,9 +1,9 @@
 # Summer 2025 Experiments
 
 **Project Members:**  
-- Dr. Thomas Chen  
-- Patrícia Muñoz Ewald  
-- Mayank Konduri
+- Dr. Thomas Chen (Professor, The University of Texas at Austin, Department of Mathematics)
+- Patrícia Muñoz Ewald (PhD Candidate, The University of Texas at Austin, Department of Mathematics)
+- Mayank Konduri (Undergraduate Student, The University of Texas at Austin, Chandra Department of Electrical & Computer Engineering)
 
 ---
 
