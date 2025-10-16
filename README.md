@@ -12,11 +12,21 @@
 ### 1. Testing for Sequential Linear Separability  
 [ Mayank_Summer_2025_Experiment_1.ipynb](https://colab.research.google.com/drive/1glI17EJJEdi8scGCjhpa42ZmpCsZ4CVU?usp=sharing)
 
-### 2. Visualizing the Cones - Part 1
+### 2. Visualizing the Cones - Part 1 (until PCA of Traing Data + Overlapping Cones)
 [ Mayank - Summer 2025 Experiment #2 - Part 1.ipynb](https://colab.research.google.com/drive/1owO-VAnCmoNxCXqZ91DN30ZMfRnAbYNi?usp=sharing)
 
-### 3. Visualizing the Cones - Part 2 ---> (MOST RECENT CODE)
+### 3. Visualizing the Cones - Part 2 (until PCA + Synthetic Data Generation + Truncation Map Visualization + Hyperplane Experiment)
 [ Mayank - Summer 2025 Experiment #2 - Part 2.ipynb](https://colab.research.google.com/drive/1DySk1rDp_Lh1OFsQH6mcoxj0euNSfDzO?usp=sharing)
+
+### 3a. Visualizing the Cones - Part 2 (adding No Limit to Epochs + Plateau Condition)
+[ Mayank - Summer 2025 Experiment #2 - Part 2.ipynb](https://colab.research.google.com/drive/1xltQWLZ_nE5PpxmCV_NUVJBsqASBH7DI?usp=sharing)
+
+### 4. Zero Loss Global Minima Experiments w/ Dataset C
+[ Mayank - Summer 2025 Experiment #2 - Part 2.ipynb](https://colab.research.google.com/drive/1siWa1DOK8KJFaNUCnA84rYjmv_GNraWo?usp=sharing)
+
+### 5. Zero Loss Global Minima Experiments w/ Multiple Datasets ---> (MOST RECENT CODE)
+[ Mayank - Summer 2025 Experiment #2 - Part 2.ipynb](https://colab.research.google.com/drive/1JpWZ-HBiT2TQyMp1vx5n3Q0GD1NOwRXe?usp=sharing)
+
 
 ## Papers - Scholarly References
 
@@ -29,6 +39,7 @@
 
 - **`Experiments Initial Plan`** — *Suggested plan to work through both experiments: Testing for Sequential Linear Separability and Visualizing the Cones*
 - **`Intuitive Explanation of the Hyperplane Separation`** — *Notes by Professor Chen on the intuitive explanation of the hyperplane separation in the toy model for MNIST*
+- **`Cone Construction for Dataset Type C`** - *Sketch by Patrícia of the construction of cones for Dataset Type C*
 - **Meeting #2 - July 2nd/`Meeting Update Slideshow`** - *Monthly update presentation (by Mayank) on my implementation of the initial plan for both experiments.*
 - **`Project_Help.md`** — *Guidance provided by Patrícia and Professor Chen on any questions I have regarding the task given*
 - **Meeting #3 - TBD/`Update Presentation - (Friday, Jul 25th, 2025) - Mayank K`** - *Monthly update presentation (by Mayank) on my extended analysis beyond the initial plan for both experiments.*
