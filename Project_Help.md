@@ -36,7 +36,6 @@
 The action of each of these truncation maps is given by the corresponding cone. So for the first cone, you would compute p = -W^(1)_pseudoinverse * b^(1) and v_i = W^(1)_pseudoinverse and similarly for the other cones.
 
 ------
-------
 
 ## July 3rd (Feedback after Experiment #1 and Experiment #2 + Suggestions for Next Steps)
 
@@ -94,6 +93,8 @@ Also, note that both papers you've been referring to have new, improved versions
 
 3. **For pixel hyperplanes:**
    - You can try to visualize the separating hyperplanes with colors, with different colors per hyperplane, and each point being colored (or not) depending on which side of that hyperplane it is on.
+
+------
 
 ## September 13th (Clarifications on Perturbation Strategy and Zero-Loss Constructions)
 
