@@ -1,7 +1,7 @@
 # Summer 2025 Experiments
 
 **Project Members:**  
-- Thomas Chen  
+- Dr. Thomas Chen  
 - Patrícia Muñoz Ewald  
 - Mayank Konduri
 
