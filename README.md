@@ -26,7 +26,7 @@ The University of Texas at Austin
 ### 2. Visualizing the Cones - Part 1 (until PCA of Traing Data + Overlapping Cones)
 [Mayank - Summer '25 - Experiment #2 - Part 1 - Final.ipynb](https://colab.research.google.com/drive/1owO-VAnCmoNxCXqZ91DN30ZMfRnAbYNi?usp=sharing)
 
-### 3a. Visualizing the Cones - Part 2 (until PCA + Synthetic Data Generation + Truncation Map Visualization + Hyperplane Experiment)
+### 3a.* Visualizing the Cones - Part 2 (until PCA + Synthetic Data Generation + Truncation Map Visualization + Hyperplane Experiment)
 [Mayank - Summer '25 - Experiment #2 - Part 2 - Final.ipynb](https://colab.research.google.com/drive/1DySk1rDp_Lh1OFsQH6mcoxj0euNSfDzO?usp=sharing)
 
 ### 3b. Visualizing the Cones - Part 2 (adding No Limit to Epochs + Plateau Condition)
@@ -39,7 +39,7 @@ The University of Texas at Austin
 [Mayank - Fall '25 - Zero Loss Experiment w/ Multiple Datasets - Final](https://colab.research.google.com/drive/1JpWZ-HBiT2TQyMp1vx5n3Q0GD1NOwRXe?usp=sharing)
 
 ---
-### Addition to 3a. Generating Dataset Type D Using Vectors and Simplex
+### * Addition to 3a. Generating Dataset Type D Using Vectors and Simplex
 [ Mayank - Fall '25 - Generating Dataset Type D (Using Ewa25) - Final](https://colab.research.google.com/drive/1Xze1e2ce0UEICwsVISOFDjxBd4F5QgO5?usp=sharing)
 ___
 
