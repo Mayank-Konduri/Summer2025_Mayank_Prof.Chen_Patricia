@@ -36,20 +36,6 @@ The University of Texas at Austin
 [Mayank - Fall '25 - Zero Loss Experiment w/ Dataset C - Final](https://colab.research.google.com/drive/1siWa1DOK8KJFaNUCnA84rYjmv_GNraWo?usp=sharing)
 
 ### 5. Zero Loss Global Minima Experiments w/ Multiple Datasets ---> (MOST RECENT CODE)
-### 5. Zero Loss Global Minima Experiments w/ Multiple Datasets <span style="background:#e5e5e5; padding:4px 8px; border-radius:6px; font-size:80%; font-weight:600;">MOST RECENT CODE</span>
----
-### 5. Zero Loss Global Minima Experiments w/ Multiple Datasets <span style="background:#24292e; color:#ffffff; padding:4px 8px; border-radius:6px; font-size:80%; font-weight:600;">MOST RECENT CODE</span>
----
-### 5. Zero Loss Global Minima Experiments w/ Multiple Datasets <span style="background:#1f6feb; color:#ffffff; padding:4px 10px; border-radius:6px; font-size:80%; font-weight:600;">MOST RECENT CODE</span>
----
-### 5. Zero Loss Global Minima Experiments w/ Multiple Datasets <span style="border:1px solid #6e7781; padding:3px 8px; border-radius:6px; font-size:80%; font-weight:600; color:#24292e;">MOST RECENT CODE</span>
----
-### 5. Zero Loss Global Minima Experiments w/ Multiple Datasets <span style="background:#2ea44f; color:white; padding:4px 8px; border-radius:6px; font-size:80%; font-weight:600;">MOST RECENT CODE ✅</span>
----
-<p align="right"><span style="background:#e5e5e5; padding:4px 8px; border-radius:6px; font-size:80%; font-weight:600;">MOST RECENT CODE</span></p>
----
-### 5. Zero Loss Global Minima Experiments w/ Multiple Datasets <a href="YOUR_LINK_HERE"><span style="background:#1f6feb; color:#ffffff; padding:4px 10px; border-radius:6px; font-size:80%; font-weight:600;">VIEW CODE 📌</span></a>
-
 [Mayank - Fall '25 - Zero Loss Experiment w/ Multiple Datasets - Final](https://colab.research.google.com/drive/1JpWZ-HBiT2TQyMp1vx5n3Q0GD1NOwRXe?usp=sharing)
 
 ---
