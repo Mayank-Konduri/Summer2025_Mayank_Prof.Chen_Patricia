@@ -35,7 +35,7 @@ The University of Texas at Austin
 ### 4. Zero Loss Global Minima Experiments w/ Dataset C
 [Mayank - Fall '25 - Zero Loss Experiment w/ Dataset C - Final](https://colab.research.google.com/drive/1siWa1DOK8KJFaNUCnA84rYjmv_GNraWo?usp=sharing)
 
-### 5. Zero Loss Global Minima Experiments w/ Multiple Datasets ---> (MOST RECENT CODE)
+### 5. Zero Loss Global Minima Experiments w/ Multiple Datasets <kbd>MOST RECENT CODE (10/28)</kbd>
 [Mayank - Fall '25 - Zero Loss Experiment w/ Multiple Datasets - Final](https://colab.research.google.com/drive/1JpWZ-HBiT2TQyMp1vx5n3Q0GD1NOwRXe?usp=sharing)
 
 ---
@@ -58,46 +58,3 @@ ___
 - **Meeting #2 - July 2nd/`Meeting Update Slideshow`** - *Monthly update presentation (by Mayank) on my implementation of the initial plan for both experiments.*
 - **`Project_Help.md`** — *Guidance provided by Patrícia and Professor Chen on any questions I have regarding the task given*
 - **Meeting #3 - August 1st/`Update Presentation - (Friday, Jul 25th, 2025) - Mayank K`** - *Monthly update presentation (by Mayank) on my extended analysis beyond the initial plan for both experiments.*
-
-
-<!-- Option A — Keyboard-style badge (built-in GitHub styling) -->
-### 5. Zero Loss Global Minima Experiments w/ Multiple Datasets <kbd>MOST RECENT CODE</kbd>
-
----
-
-<!-- Option B — Yellow highlight (built-in <mark>) -->
-### 5. Zero Loss Global Minima Experiments w/ Multiple Datasets <mark>MOST RECENT CODE</mark>
-
----
-
-<!-- Option C — Code badge (simple, neutral) -->
-### 5. Zero Loss Global Minima Experiments w/ Multiple Datasets `MOST RECENT CODE`
-
----
-
-<!-- Option D — Shields.io static badge (gray) -->
-### 5. Zero Loss Global Minima Experiments w/ Multiple Datasets ![MOST RECENT CODE](https://img.shields.io/badge/MOST%20RECENT%20CODE--6e7781?style=flat)
-
----
-
-<!-- Option E — Shields.io dark label (GitHub-like) -->
-### 5. Zero Loss Global Minima Experiments w/ Multiple Datasets ![MOST RECENT CODE](https://img.shields.io/badge/-MOST%20RECENT%20CODE-24292e?style=flat&logo=github&logoColor=white)
-
----
-
-<!-- Option F — Button-y look (for-the-badge style) -->
-### 5. Zero Loss Global Minima Experiments w/ Multiple Datasets ![MOST RECENT CODE](https://img.shields.io/badge/MOST%20RECENT%20CODE-blue?style=for-the-badge)
-
----
-
-<!-- Option G — Clickable button linking to your notebook -->
-### 5. Zero Loss Global Minima Experiments w/ Multiple Datasets [![VIEW CODE](https://img.shields.io/badge/VIEW%20CODE-1f6feb?style=for-the-badge)](YOUR_LINK_HERE)
-
----
-
-<!-- Option H — Right-aligned clickable badge -->
-<p align="right">
-  <a href="YOUR_LINK_HERE">
-    <img alt="VIEW CODE" src="https://img.shields.io/badge/VIEW%20CODE-2ea44f?style=for-the-badge">
-  </a>
-</p>
