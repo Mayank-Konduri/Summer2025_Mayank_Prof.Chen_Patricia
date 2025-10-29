@@ -38,6 +38,11 @@ The University of Texas at Austin
 ### 5. Zero Loss Global Minima Experiments w/ Multiple Datasets ---> (MOST RECENT CODE)
 [Mayank - Fall '25 - Zero Loss Experiment w/ Multiple Datasets - Final](https://colab.research.google.com/drive/1JpWZ-HBiT2TQyMp1vx5n3Q0GD1NOwRXe?usp=sharing)
 
+---
+### Addition to 3a. Generating Dataset Type D Using Vectors and Simplex
+[ Mayank - Fall '25 - Generating Dataset Type D (Using Ewa25) - Final](https://colab.research.google.com/drive/1Xze1e2ce0UEICwsVISOFDjxBd4F5QgO5?usp=sharing)
+___
+
 ## Papers - Scholarly References
 
 - **`CE23`:** *Geometric Structure of Deep Learning Networks and Construction of Global L2 Minimizers*
