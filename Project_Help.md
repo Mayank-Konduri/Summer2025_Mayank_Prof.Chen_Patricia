@@ -158,3 +158,63 @@ Your summary looks excellent!
 - Test this construction on the synthetic (type c) dataset.  
 - Once it reproduces the expected zero-loss behavior, extend to other geometries (types (a), (b), (d)) using analogous cone definitions.
 
+---
+
+## October 28th (Suboptimal Minima, Speed of Truncation & Next Steps)
+
+Hi Mayank,
+
+### **1. Finish construction of zero-loss minimizer for the concentric dataset**
+- Complete the cone-based construction analogous to the earlier synthetic settings.
+- Verify that the cumulative parameters classify all points with zero loss.
+- Once confirmed, this will serve as the “reference point” for the next experiments on suboptimal minima and truncation dynamics.
+
+---
+
+### **2. Study of suboptimal local minimizers**
+In the clustered-data construction with \(Q\) classes, each truncation map collapses exactly one class while leaving the others unchanged.  
+By shifting the base point (i.e., modifying the bias), each truncation map can be toggled between:
+- **“Full collapse”** of that class, or  
+- **“No collapse”** (identity on all classes)
+
+This yields  
+\[
+2^Q - 1
+\]
+distinct suboptimal local minima.
+
+The goal is to understand:
+- What the loss landscape looks like around these suboptimal minima  
+- How stable each one is under perturbations
+
+#### **For \(Q = 3\):**
+- Construct several of these suboptimal minima  
+  (due to symmetry, not all need to be constructed explicitly)
+- For each minimizer:
+  - **Perturb → train (SGD) → measure final loss**  
+    (same method as in the zero-loss perturbation experiments)
+  - **Perturb → evaluate loss directly** without training  
+    (gives a sense of the curvature and basin shape)
+
+---
+
+### **3. Speed of truncation**
+Thomas has a paper analyzing how truncation evolves during training.  
+He shows that the amount of truncation grows **exponentially** with the number of already-truncated data points.
+
+You can watch his recent talk — he starts discussing this around **46:20**.
+
+The goal is to obtain **empirical evidence**, even qualitatively, that mirrors this phenomenon.
+
+#### **Suggested setup (again with \(Q=3\) clustered data):**
+1. Construct networks that **partially truncate** certain clusters  
+   (easy once the suboptimal minima are implemented — you can interpolate biases between states)
+2. Train these networks with SGD
+3. Generate a few **video clips** visualizing:
+   - Data movement through layers during training  
+   - Degree of truncation over time  
+   - How fast clusters collapse toward their base points
+
+This does **not** need to be precise or quantitative yet — qualitative evidence and visual intuition are sufficient for a first pass.
+
+---
