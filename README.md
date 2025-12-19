@@ -43,6 +43,14 @@ The University of Texas at Austin
 [ Mayank - Fall '25 - Generating Dataset Type D (Using Ewa25) - Final](https://colab.research.google.com/drive/1Xze1e2ce0UEICwsVISOFDjxBd4F5QgO5?usp=sharing)
 ___
 
+## Results
+
+![Mayank_SciML_25_Poster.pdf](https://github.com/user-attachments/files/24264807/Mayank_SciML_25_Poster.pdf)
+
+[Download Poster PDF](https://github.com/user-attachments/files/24264807/Mayank_SciML_25_Poster.pdf)
+
+___
+
 ## Papers - Scholarly References
 
 - **`CE23`:** *Geometric Structure of Deep Learning Networks and Construction of Global L2 Minimizers*
