@@ -45,7 +45,7 @@ ___
 
 ## Results
 
-![Mayank_SciML_25_Poster.pdf](https://github.com/user-attachments/files/24264807/Mayank_SciML_25_Poster.pdf)
+![Mayank_SciML_25_Poster_page-0001 (1)](https://github.com/user-attachments/assets/cca26369-9de9-4065-a418-5371245cc901)
 
 [Download Poster PDF](https://github.com/user-attachments/files/24264807/Mayank_SciML_25_Poster.pdf)
 
