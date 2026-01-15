@@ -35,8 +35,11 @@ The University of Texas at Austin
 ### 4. Zero Loss Global Minima Experiments w/ Dataset C
 [Mayank - Fall '25 - Zero Loss Experiment w/ Dataset C - Final](https://colab.research.google.com/drive/1siWa1DOK8KJFaNUCnA84rYjmv_GNraWo?usp=sharing)
 
-### 5. Zero Loss Global Minima Experiments w/ Multiple Datasets <kbd>MOST RECENT CODE (11/26)</kbd>
+### 5. Zero Loss Global Minima Experiments w/ Multiple Datasets 
 [Mayank - Fall '25 - Zero Loss Experiment w/ Multiple Datasets - Final](https://colab.research.google.com/drive/1JpWZ-HBiT2TQyMp1vx5n3Q0GD1NOwRXe?usp=sharing)
+
+### 6. Suboptimal Minima Stability Study <kbd>MOST RECENT CODE (1/14/26)</kbd>
+[Mayank - Fall '25 - Suboptimal Minima Stability Study - Final](https://colab.research.google.com/drive/1j1aQEkqcnUxqVmgdrm6f_AixRQSacBSc?usp=sharing)
 
 ---
 ### * Addition to 3a. Generating Dataset Type D Using Vectors and Simplex
