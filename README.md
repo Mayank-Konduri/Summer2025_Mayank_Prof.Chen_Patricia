@@ -70,3 +70,4 @@ ___
 - **`Project_Help.md`** — *Guidance provided by Patrícia and Professor Chen on any questions I have regarding the task given*
 - **Meeting #3 - August 1st/`Update Presentation - (Friday, Jul 25th, 2025) - Mayank K`** - *Monthly update presentation (by Mayank) on my extended analysis beyond the initial plan for both experiments.*
 - **Meeting #6 - October 28th/`Dataset Type C - Loss Landscape Results`** - *Update document with outlined results of Dataset Type C visualized with lambda perturbations and perturbations in 2-dimensional directions.*
+- **Meeting #7 - Jan 8th/`Notes_Questions for Dataset A`** - *Document with detailed steps regarding how to create a zero-loss construction for Dataset A, and how to fine-tune the MSE loss.*
