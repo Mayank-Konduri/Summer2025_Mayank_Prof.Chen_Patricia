@@ -38,12 +38,18 @@ The University of Texas at Austin
 ### 5. Zero Loss Global Minima Experiments w/ Multiple Datasets 
 [Mayank - Fall '25 - Zero Loss Experiment w/ Multiple Datasets - Final](https://colab.research.google.com/drive/1JpWZ-HBiT2TQyMp1vx5n3Q0GD1NOwRXe?usp=sharing)
 
-### 6. Suboptimal Minima Stability Study <kbd>MOST RECENT CODE (1/14/26)</kbd>
+### 6. Suboptimal Minima Stability Study
 [Mayank - Fall '25 - Suboptimal Minima Stability Study - Final](https://colab.research.google.com/drive/1j1aQEkqcnUxqVmgdrm6f_AixRQSacBSc?usp=sharing)
+
+### 7. SLS Refactored <kbd>MOST RECENT CODE (04/06/26)</kbd>
+[Mayank - Spring '26 - SLS Refactored - Final](https://colab.research.google.com/drive/1ONkbh_KTexe8iC7pCngVARymJrV_FW3S?usp=sharing)
+
+### 8. PCA Refactored <kbd>MOST RECENT CODE (04/06/26)</kbd>
+[Mayank - Spring '26 - PCA Refactored - Final](https://colab.research.google.com/drive/16zxQ2ectSg2M3cUYHHm9gGn0Yk0Jmr9t?usp=sharing)
 
 ---
 ### * Addition to 3a. Generating Dataset Type D Using Vectors and Simplex
-[ Mayank - Fall '25 - Generating Dataset Type D (Using Ewa25) - Final](https://colab.research.google.com/drive/1Xze1e2ce0UEICwsVISOFDjxBd4F5QgO5?usp=sharing)
+[Mayank - Fall '25 - Generating Dataset Type D (Using Ewa25) - Final](https://colab.research.google.com/drive/1Xze1e2ce0UEICwsVISOFDjxBd4F5QgO5?usp=sharing)
 ___
 
 ## Results
